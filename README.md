@@ -18,8 +18,8 @@ Franklin is a Python based web crawler designed to efficiently crawl links withi
 1. Clone this repository
 
     ```bash
-    git clone https://github.com/FreedomSecurity1337/laba-laba-sunda.git
-    cd laba-laba-sunda
+    git clone https://github.com/FreedomSecurity1337/Franklin
+    cd Franklin
     ```
 
 2. Install dependencies
@@ -33,23 +33,23 @@ Franklin is a Python based web crawler designed to efficiently crawl links withi
 
 ## 💻 Usage
 
-1. Run the `x-crawl.py` script with arguments:
+1. Run the `Franklin.py` script with arguments:
 
     ```bash
-    python3 x-crawl.py <URL_TARGET> <THREAD_COUNT>
+    python3 Franklin.ly<URL_TARGET> <THREAD_COUNT>
     ```
 
     Example:
 
     ```bash
-    python3 x-crawl.py https://example.com 10
+    python3 Franklin.py https://example.com 10
     ```
 
 ---
 
 ## ⚙️ File Structure
 
-- `x-crawl.py`: The main script for crawling websites
+- `Franklin.py`: The main script for crawling websites
 - `requirements.txt`: Dependencies for the project
 - `LICENSE`: License information for the project
 
@@ -79,7 +79,7 @@ We welcome contributions! If you find bugs or want to add features, feel free to
 
 If you like this project, please give a ⭐ on this repository!
 
-Author: FreedomSecurity1337
+Author: ./Freedom Security
 
 ---
 
