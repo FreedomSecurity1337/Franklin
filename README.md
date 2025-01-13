@@ -1,6 +1,6 @@
-# 🕷️ Laba Laba Sunda (Beta)
+# 🕷️ Franklin (Beta)
 
-Laba Laba Sunda is a Python based web crawler designed to efficiently crawl links within a website. Equipped with multi-threading, error handling, and comprehensive reporting.
+Franklin is a Python based web crawler designed to efficiently crawl links within a website. Equipped with multi-threading, error handling, and comprehensive reporting.
 
 ---
 
