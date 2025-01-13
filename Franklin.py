@@ -1,3 +1,6 @@
+# Dev : ./Freedom Security
+# Disclaimer : you can recode this script but don't sell it!
+# recode boleh asal jangan di jual ya kontol noob bangsat
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
@@ -33,10 +36,10 @@ executor = None
 def signal_handler(sig, frame):
     global stop_crawling, executor
     stop_crawling = True
-    print(f"{RED}[INFO] Crawling dihentikan paksa!{RESET}", flush=True)
+    print(f"{RED}[INFO] stopping crawling{RESET}", flush=True)
     if executor:
-        executor.shutdown(wait=False)  # Force shutdown of all threads
-    os._exit(0)  # Immediately exit the program
+        executor.shutdown(wait=True)
+    os._exit(0)
 
 def ngambil_page(bingung_url, domain_ah, udah_dikunjungi):
     global stop_crawling
@@ -105,7 +108,7 @@ if __name__ == "__main__":
     signal.signal(signal.SIGINT, signal_handler)
 
     if len(sys.argv) != 3:
-        print("Usage: python3 s.py <start_url> <threads>")
+        print("Usage: python3 franklin.py <start_url> <threads>")
         sys.exit(1)
 
     start_bingung = sys.argv[1]
